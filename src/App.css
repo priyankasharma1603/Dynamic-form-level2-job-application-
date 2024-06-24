@@ -1,0 +1,51 @@
+/* Example CSS - customize as needed */
+body{
+  background-color: #45a049;
+}
+h1{
+  text-align: center;
+  text-decoration: underline;
+}
+form {
+  max-width: 600px;
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid #c1c1c1;
+  border-radius: 8px;
+  background-color: #e5fff1;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 4px;
+}
